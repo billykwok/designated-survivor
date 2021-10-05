@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "f-1"
+version = "0.1.0"
+description = ""
+authors = ["Billy Kwok <opensource@billykwok.me>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+adafruit-circuitpython-crickit = "^2.3.5"
+google-cloud-texttospeech = "^2.5.3"
+google-cloud-vision = "^2.4.4"
+halo = "^0.0.31"
+numpy = "^1.21.2"
+pydub = "^0.25.1"
+python = "~3.9"
+scipy = "^1.7.1"
+schedule = "^1.1.0"
+webrtcvad = "^2.0.10"
+python-socketio = "^5.4.0"
+eventlet = "^0.32.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
